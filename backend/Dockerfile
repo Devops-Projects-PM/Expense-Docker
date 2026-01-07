@@ -1,4 +1,4 @@
-FROM nodejs:20
+FROM nodejs:23
 WORKDIR /opt/backend
 COPY package.json .
 COPY *.js .
